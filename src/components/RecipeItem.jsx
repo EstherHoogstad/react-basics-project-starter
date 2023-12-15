@@ -9,7 +9,6 @@ import {
 } from "@chakra-ui/react";
 
 export const RecipeItem = ({ recipe, selectionRecipe }) => {
-  console.log(recipe.cautions);
   return (
     <Box
       w={300}
